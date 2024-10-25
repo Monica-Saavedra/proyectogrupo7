@@ -284,7 +284,7 @@ proyectos = [
     ("GRANJA SOLAR EL PALMAR", "VALLE DEL CAUCA", "YUMBO", 3.5563, -76.5971),
 ]
 
-# Crear un mapa centrado en Colombia
+# Crear un mapa centrado en Colombia.
 m = folium.Map(location=[4.5709, -74.2973], zoom_start=5)
 
 # Añadir marcadores al mapa.

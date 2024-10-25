@@ -287,7 +287,7 @@ proyectos = [
 # Crear un mapa centrado en Colombia
 m = folium.Map(location=[4.5709, -74.2973], zoom_start=5)
 
-# Añadir marcadores al mapa
+# Añadir marcadores al mapa.
 for proyecto in proyectos:
     nombre, departamento, municipio, latitud, longitud = proyecto
     folium.Marker(

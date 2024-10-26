@@ -296,6 +296,6 @@ for proyecto in proyectos:
         icon=folium.Icon(color='blue')
     ).add_to(m)
 
-# Mostrar el mapa en Streamlit
+# Mostrar el mapa en Streamlit.
 st.title("Proyectos Renovables en Colombia")
 st_folium(m, width=700, height=500)
